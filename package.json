@@ -1,0 +1,23 @@
+{
+  "name": "flux-dispatcher",
+  "version": "0.0.0",
+  "description": "flux/dispatcher.js file only. Thanks for facebook, copy from https://github.com/facebook/react/blob/master/examples/todomvc-flux/js/dispatcher/Dispatcher.js",
+  "main": "Dispatcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericfong/flux-dispatcher.git"
+  },
+  "keywords": [
+    "flux",
+    "dispatcher"
+  ],
+  "author": "Eric Fong <ericff@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericfong/flux-dispatcher/issues"
+  },
+  "homepage": "https://github.com/ericfong/flux-dispatcher/react"
+}
