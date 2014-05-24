@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ericfong/flux-dispatcher/issues"
   },
-  "homepage": "https://github.com/ericfong/flux-dispatcher/react"
+  "homepage": "https://github.com/ericfong/flux-dispatcher/react",
+  "dependencies": {
+    "es6-promise": "^1.0.0"
+  }
 }
