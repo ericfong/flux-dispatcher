@@ -1,6 +1,6 @@
 {
   "name": "flux-dispatcher",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Facebook flux simplest Dispatcher. Copied from reactjs todo example.",
   "main": "Dispatcher.js",
   "scripts": {

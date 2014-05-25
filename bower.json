@@ -1,12 +1,14 @@
 {
   "name": "flux-dispatcher",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "homepage": "https://github.com/ericfong/flux-dispatcher",
   "authors": [
     "Eric Fong <ericff@gmail.com>"
   ],
   "description": "Facebook flux simplest Dispatcher. Copied from reactjs todo example.",
-  "main": "Dispatcher.js",
+  "main": [
+    "Dispatcher.js"
+  ],
   "keywords": [
     "React",
     "reactjs",
