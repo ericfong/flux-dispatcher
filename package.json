@@ -11,6 +11,8 @@
     "url": "https://github.com/ericfong/flux-dispatcher.git"
   },
   "keywords": [
+    "react",
+    "reactjs",
     "flux",
     "dispatcher"
   ],
