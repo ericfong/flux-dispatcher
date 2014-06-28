@@ -36,10 +36,14 @@ Dispatcher.prototype = {
         return this.register(function(payload){
             var args = payload.emit;
             if (args && args[0] == event) {
-                args.shift();
-                // FIXME: find other way to let the store to access the full version of payload
-                listener.payload = payload;
-                var ret = listener.apply(scope, args);
+                args = [].concat(args);
+                args[0] = payload;
+                var ret = null;
+                try {
+                    ret = listener.apply(scope, args);
+                } catch(err) {
+                    console.error(err.stack);
+                }
                 // undefined means true
                 if (!ret && ret !== false)
                     return true;
